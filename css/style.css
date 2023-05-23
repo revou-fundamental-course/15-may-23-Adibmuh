@@ -1,0 +1,260 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;;
+}
+
+/* Body */
+body {
+  background-color: rgb(206, 206, 206);
+}
+/* Body */
+
+/* Header */
+.head__class {
+  display: flex;
+  height: 100px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 125, 233);
+}
+.katik {
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-right: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+.p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 11px;
+}
+/* Header */
+
+/* Main CSS */
+
+/* Title and Subtitle */
+main {
+  margin: 30px 15px;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: white;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 5px 5px 5px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 0px 10px 0px 10px;
+}
+/* Title and Subtitle */
+
+/* Button */
+.tombol {
+  padding: 15px;
+  margin: 10px 25px 0px 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  outline: none;
+  background-color: rgb(30, 125, 233);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.tombol:hover {
+  background-color: rgb(16, 105, 206);
+  cursor: pointer;
+}
+.tombol__kedua {
+  padding: 15px;
+  margin: 10px 25px 80px 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  outline: none;
+  color: rgb(30, 125, 233);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* Button */
+
+/* Luas Persegi */
+.luas__persegi {
+  border: 1px solid;
+  height: auto;
+  margin: 30px 25px;
+  padding-bottom: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.head__persegi {
+  display: flex;
+  height: 100px;
+  margin: auto;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 125, 233);
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+/* Luas Persegi */
+
+/* Main Content */
+.AB {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.AB span {
+  margin: 0px 80px;
+}
+.CD {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+.CD span {
+  margin: 0px 80px;
+}
+.bujur__sangkar {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.persegi {
+  border: 1px red solid;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.rumus {
+  margin-top: 50px;
+  font-size: 22px;
+  padding: 0px 20px;
+}
+.rumus__content {
+  border-bottom: 2px rgb(197, 190, 190) solid;
+  padding-bottom: 40px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 20px;
+}
+input {
+  width: 1100px;
+  padding: 10px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* untuk input */
+@media (max-width: 1240px) {
+  input {
+    width: auto;
+  }
+}
+
+
+.hitung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: rgb(30, 125, 233);
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hitung:hover {
+  background-color: rgb(16, 105, 206);
+  cursor: pointer;
+}
+.reset {
+  float: right;
+  margin-top: 30px;
+  margin-right: 25px;
+  padding: 10px 20px;
+  background-color: rgb(233, 179, 30);
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.reset:hover {
+  background-color: rgb(206, 161, 36);
+  cursor: pointer;
+}
+
+.value-luas {
+  display: none;
+}
+.value-keliling {
+  display: none;
+}
+
+.show {
+  margin-top: 50px;
+  font-size: 22px;
+  padding: 0px 20px;
+}
